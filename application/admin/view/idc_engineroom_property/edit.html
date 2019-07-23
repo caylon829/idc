@@ -1,0 +1,148 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Code')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-code" class="form-control" name="row[code]" type="text" value="{$row.code|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Engineroom_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-engineroom_id" data-rule="required" data-source="engineroom/index" class="form-control selectpage" name="row[engineroom_id]" type="text" value="{$row.engineroom_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sn')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sn" class="form-control" name="row[sn]" type="text" value="{$row.sn|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" class="form-control" name="row[type]" type="text" value="{$row.type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Brand')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-brand" class="form-control" name="row[brand]" type="text" value="{$row.brand|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Non')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-non" class="form-control" name="row[non]" type="text" value="{$row.non|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('U_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-u_num" class="form-control" name="row[u_num]" type="text" value="{$row.u_num|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cpu')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cpu" class="form-control" name="row[cpu]" type="text" value="{$row.cpu|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ram')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ram" class="form-control" name="row[ram]" type="text" value="{$row.ram|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Disk')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-disk" class="form-control" name="row[disk]" type="text" value="{$row.disk|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Model')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-model" class="form-control" name="row[model]" type="text" value="{$row.model|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Department')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-department" class="form-control" name="row[department]" type="text" value="{$row.department|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" class="form-control" name="row[status]" type="number" value="{$row.status|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" class="form-control" step="0.00000001" name="row[price]" type="number" value="{$row.price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('In_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-in_date" class="form-control" name="row[in_date]" type="text" value="{$row.in_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('On_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-on_date" class="form-control" name="row[on_date]" type="text" value="{$row.on_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Out_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-out_date" class="form-control" name="row[out_date]" type="text" value="{$row.out_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Remark')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-remark" class="form-control " rows="5" name="row[remark]" cols="50">{$row.remark|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('User')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user" class="form-control" name="row[user]" type="text" value="{$row.user|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Corp_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-corp_id" data-rule="required" data-source="corp/index" class="form-control selectpage" name="row[corp_id]" type="text" value="{$row.corp_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Log')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-log" class="form-control " rows="5" name="row[log]" cols="50">{$row.log|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Property_right')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-property_right" class="form-control" name="row[property_right]" type="text" value="{$row.property_right|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{:$row.update_time?datetime($row.update_time):''}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
